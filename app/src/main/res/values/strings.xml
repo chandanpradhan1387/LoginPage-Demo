@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginPage</string>
+    <string name="emailID">UserID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="success">Successfully logged In !</string>
+    <string name="forgotPassword">forgot password ?</string>
+    <string name="newPass">Enter new password</string>
+    <string name="submit">submit</string>
+    <string name="reenterNewPassword"> reenter password</string>
+</resources>

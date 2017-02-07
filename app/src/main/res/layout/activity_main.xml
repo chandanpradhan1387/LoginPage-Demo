@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="com.example.chandan.loginpage.MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Edit_text_height"
+        android:layout_marginTop="@dimen/top_margin"
+        android:hint="@string/emailID"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintColor"
+        android:id="@+id/email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Edit_text_height"
+        android:layout_marginTop="@dimen/top_margin"
+        android:textColor="@color/black"
+        android:layout_below="@+id/email"
+        android:hint="@string/password"
+        android:textColorHint="@color/hintColor"
+        android:inputType="textPassword"
+        android:id="@+id/password"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:background="#f04d4d"
+        android:id="@+id/login"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:textSize="16sp"
+        android:text="@string/forgotPassword"
+        android:layout_below="@id/login"
+        android:textColor="@color/forgot"
+        android:id="@+id/forgot"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
